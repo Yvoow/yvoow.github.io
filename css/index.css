@@ -1,5 +1,11 @@
 body {
     background-color: #1d1d20;
+} 
+
+.intro {
+    background-color: #1d1d20;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
 }
 
 .ik img {
