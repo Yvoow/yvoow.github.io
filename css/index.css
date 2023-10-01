@@ -8,8 +8,8 @@ body {
     font-weight: bolder;
 }
 
-.ik {
+.img ik {
     border: 5px solid rgb(14, 200, 225);
-    width: 25px;
-    height: 25px;
+    width: 10%;
+    height: 10%;
 }
