@@ -4,12 +4,12 @@ body {
 
 .intro {
     background-color: #1d1d20;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 255);
     font-weight: bolder;
 }
 
 .ik img {
-    border: 5px solid rgb(14, 200, 225);
+    border: 5px solid rgb(0, 255, 255);
     width: 10%;
     height: 10%;
 }
