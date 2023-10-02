@@ -25,6 +25,14 @@ body {
     display: flex;
 }
 
+.nav-logo {
+    align-items: center !important;
+}
+.image {
+    width: 40%;
+    
+}
+
 nav {
     margin-left: auto;
     display: inline;
