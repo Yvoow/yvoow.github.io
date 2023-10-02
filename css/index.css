@@ -27,6 +27,8 @@ body {
 
 .nav-logo {
     align-items: center !important;
+    font-size: 100px;
+    font-weight: bolder;
 }
 .image {
     width: 10%;
