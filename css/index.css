@@ -13,3 +13,9 @@ body {
     width: 10%;
     height: 10%;
 }
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
