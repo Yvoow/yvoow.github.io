@@ -74,7 +74,6 @@ body {
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgb(0, 255, 255);
-    min-height: 180px;
     padding: 0px 24px;
     justify-content: space-between;
     align-items: center;
@@ -86,19 +85,16 @@ body {
     font-size: 70px;
     font-weight: bolder;
     width: 40%;
+    margin-bottom: 1%;
 }
 
 .image {
-    width: 10%;
-    height: 10%;  
+    margin-top: 1%;
+    width: 100px;
 }
 
 nav {
-    margin-left: auto;
-    display: inline;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 
