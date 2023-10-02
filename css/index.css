@@ -15,6 +15,8 @@ body {
 }
 
 nav {
+    display: inline;
+    background-color: #dddddd;
     list-style-type: none;
     margin: 0;
     padding: 0;
