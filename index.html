@@ -42,14 +42,20 @@
     <div class="form-popup" id="myForm">
         <form action="https://formsubmit.co/yheijltjes@gmail.com" method="POST" class="form-container">
           <h1>Login</h1>
-      
+
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name" required>
+
+          <label for="subject"><b>Subject</b></label>
+          <input type="text" placeholder="Enter Subject" name="subject" required>
+
           <label for="email"><b>Email</b></label>
           <input type="text" placeholder="Enter Email" name="email" required>
       
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <label for="message"><b>Message</b></label>
+          <input type="veeltext" placeholder="Enter Message" name="message" required>
       
-          <button type="submit" class="btn">Login</button>
+          <button type="submit" class="btn" onclick="submitForm()">Submit</button>
           <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
     </div>
