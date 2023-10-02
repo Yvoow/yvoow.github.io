@@ -9,12 +9,14 @@ body {
 }
 
 .ik {
+    border-radius: 50%;
     border: 5px solid rgb(0, 255, 255);
     width: 10%;
     height: 10%;
 }
 
 .nav-container {
+    width: 100%;
     min-height: 180px;
     padding: 0 24px;
     justify-content: space-between;
