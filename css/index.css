@@ -26,9 +26,11 @@ body {
 }
 
 .nav-logo {
-    align-items: center !important;
+    display: inline;
     font-size: 100px;
     font-weight: bolder;
+    margin-top: auto;
+    width: 40%;
 }
 .image {
     width: 10%;
