@@ -25,22 +25,35 @@
         </div>
     </header>
 
-
     <div class="homecontainer">
-        <div class="contactcontainer">
-            <div class="contacttitle">
-                Contact
-            </div>
-            <div class="contacttext">
-                Neem contact met mij op
-            </div>
+        <div class="name">
+            Hi! I'm Yvo Heijltjes
         </div>
         <div class="hometext">
-            Leuke tekst <br>
-            Line height test. <br>
-            Waarom bold <br>
+            Information and communication technologies student <br>
+        </div>
+        <div class="contact">
+            <button class="contactbutton" onclick="openForm()">Get in touch with me</button>
         </div>
     </div>
+
+
+    <!--- FORUM  -->
+    <div class="form-popup" id="myForm">
+        <form action="https://formsubmit.co/yheijltjes@gmail.com" method="POST" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
 
     <footer>
         <div class="footerline"></div>
@@ -56,9 +69,10 @@
             </div>
         
             <div class="footertext">
-                ® Yvo Heijltjes | 2023
+                        ® Yvo Heijltjes | 2023
             </div>
         </div>
     </footer>
+    <script src="/js/index.js"></script>
 </body>
 </html>
