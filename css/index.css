@@ -59,16 +59,6 @@ li a {
     text-decoration: none;
 }
 
-li b {
-    font-size: 75px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
 li a:hover {
-    background: pink;
+    background: rgba(0, 255, 255, 0.332);;
 }
