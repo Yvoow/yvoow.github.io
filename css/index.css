@@ -3,7 +3,7 @@ body {
 }
 
 .intro {
-    display: flex;
+    margin-left: 10px;
     background-color: #1d1d20;
     color: rgb(0, 255, 255);
     font-weight: bolder;
