@@ -1,5 +1,6 @@
 @import "https://unpkg.com/open-props";
 
+
 .titlecontainer {
     margin: auto;
     margin-top: 5%;
@@ -7,6 +8,11 @@
     width: 30%;
 }
 
+@media (Max-width:800px) {
+    .titlecontainer {
+        margin-left: 30%;
+    }
+}
 
 .contacttitle {
     color: rgb(255, 255, 255);
@@ -75,7 +81,7 @@ textarea {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .contact-form {
         padding: 15px;
     }
