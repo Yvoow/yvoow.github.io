@@ -1,9 +1,5 @@
 @import "https://unpkg.com/open-props";
 
-.maindiv {
-    display: flex;
-    flex: 1;
-}
 
 .homecontainer {
     text-align: center;
