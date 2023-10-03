@@ -8,5 +8,4 @@ function closeForm() {
 
 function submitForm() {
     document.getElementById("myForm").style.display = "none";
-    alert("Hello\nHow are you?");
 }

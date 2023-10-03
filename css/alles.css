@@ -1,0 +1,25 @@
+.contactbutton {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 255);
+    border: 5px solid rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 14px;
+    animation: pulse 5s infinite;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contactbutton:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+}
