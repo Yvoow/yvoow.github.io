@@ -19,9 +19,24 @@
     font-size: 60px;
 }
 
+@media (Max-width:800px) {
+    .contacttitle {
+        margin-left: 50%;
+        font-size: 30px;
+    }
+}
+
 .contacttext {
     color: rgb(255, 255, 255);
     font-size: 15px;
+}
+
+@media (Max-width:800px) {
+    .contacttext {
+        margin-left: 50%;
+        font-size: 8px;
+        margin-bottom: 5%;
+    }
 }
 
 .head-text, .header-title {
