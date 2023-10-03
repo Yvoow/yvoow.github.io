@@ -1,0 +1,84 @@
+@import "https://unpkg.com/open-props";
+
+.titlecontainer {
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 30%;
+}
+
+
+.contacttitle {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.contacttext {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.head-text, .header-title {
+    margin-bottom: 30px;
+}
+
+.header-title {
+    font-size: 50px;
+}
+
+::placeholder, input, .header-text {
+    font-size: 18px;
+}
+
+.contact-form, footer {
+    margin: 0px auto;  
+    max-width: 580px;
+}
+
+form {
+    display: grid; 
+    gap: 30px;   
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.form-item {
+    padding: 20px;
+    background-color: #1d1d20;
+    border: 3px solid rgba(0, 255, 255, 0.5);
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+textarea {
+    height: 200px;    
+}
+
+.button {
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 25px;
+    font-weight: bold;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size: 23px;
+    padding: 10px 0px;
+}
+
+.button:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+
+
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 15px;
+    }
+}
+
+

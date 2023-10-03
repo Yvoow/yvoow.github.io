@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/47a8d14326.js" crossorigin="anonymous"></script>
     <link rel="icon" type="images/logo.png" sizes="32x32" href="../images/logo.png">
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/alles.css">
-    <title>Yvo Heijltjes | About</title>
+    <title>Yvo Heijltjes | Study</title>
 </head>
 <body>
     <header>
@@ -19,24 +19,35 @@
             </div>
             <nav>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../html/about.html" class="active">About</a></li>
+                <li><a href="../html/about.html">About</a></li>
                 <li><a href="../html/portfolio.html">Portfolio</a></li>
                 <li><a href="../html/study.html">Study</a></li>
-                <li><a href="../html/contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </nav>
         </div>
     </header>
     <div class="navline"></div>
 
-    <div class="maindiv">
-        <div class="homecontainer">
-            TTT
+    <div class="contactdiv">
+        <div class="titlecontainer">
+            <div class="contacttitle">
+                Contact
+            </div>
+            <div class="contacttext">
+                Get in touch with me. <br>
+                You can also send an email directly to: 509063@gmail.com.
+            </div>
+            <form action="https://formsubmit.co/yheijltjes@gmail.com" method="POST" class="form" id="contact-form">
+                <input name="name" type="text" class="t form-item" placeholder="Name..." required/>
+                <input type="email" name="email"  class="form-item" placeholder="Email..." required>
+                <input name="subject" type="text" class="form-item" placeholder="Subject..." required/>
+                <input type="hidden" name="_captcha" value="false">
+                <textarea name="message" class="form-item" placeholder="Message..." required></textarea>
+                <input type="submit" class="button" value="Send" id="sendButton">
+            </form>
         </div>
     </div>
 
-    <div class="contact">
-        <a href="../html/contact.html" class="contactbutton">Get in touch with me</a>
-    </div>
 
         <footer>
             <div class="footerline"></div>

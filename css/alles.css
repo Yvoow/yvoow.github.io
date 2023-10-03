@@ -1,3 +1,5 @@
+@import "https://unpkg.com/open-props";
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -11,13 +13,19 @@ body {
 }
 
 .active {
-    background-color: pink;
+    color: black;
+    background:
+    linear-gradient(to right, black 2px, transparent 4px) 0 0,
+    linear-gradient(to left, black 2px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, black 2px, transparent 4px) 0 0,
+    linear-gradient(to top, black 2px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
 }
 
 .nav-container {
-    border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgb(0, 255, 255);
     padding: 0px 24px;
     justify-content: space-between;
     align-items: center;
@@ -55,10 +63,11 @@ li a {
 }
 
 li a:hover {
-    background: rgba(0, 255, 255, 0.332);;
+    color: black;
 }
 
 .contactbutton {
+    text-decoration: none;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -88,6 +97,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin-top: 3%;
+}
+
+.navline {
+    background-color: rgba(0, 255, 255, 0.5);
+    display: flex;
+    height: 3px;
 }
 
 .footerline {
@@ -136,7 +151,7 @@ body {
 .form-popup {
     display: none;
     position: fixed;
-    bottom: 0;
+    bottom: 15px;
     right: 15px;
     border: 1px solid rgb(0, 255, 255);
     border-radius: 25px;
@@ -148,7 +163,7 @@ body {
     border-radius: 25px;
     max-width: 300px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(143, 139, 139);
 }
   
 .form-container input[type=text], .form-container input[type=password] {
