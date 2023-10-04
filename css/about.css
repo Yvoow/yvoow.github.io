@@ -1,8 +1,17 @@
 @import "https://unpkg.com/open-props";
 
 .aboutcontainer {
-    text-align: center;
-    width: 100%;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 50%;
+}
+
+.ikimage {
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 20%;
+    height: 20%;
+    border-radius: 30px;
 }
 
 .abouttitle {
@@ -45,7 +54,6 @@
     margin-top: 1%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin-bottom: 50px;
 }
 
