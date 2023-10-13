@@ -264,3 +264,19 @@ body {
 .form-container .btn:hover, .open-button:hover {
     opacity: 1;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #2f2f2f;
+}
