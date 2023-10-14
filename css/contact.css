@@ -10,7 +10,8 @@
 
 @media (Max-width:800px) {
     .titlecontainer {
-        margin-left: 25%;
+        margin-left: 15%;
+        width: 50%;
     }
 }
 
@@ -21,7 +22,7 @@
 
 @media (Max-width:800px) {
     .contacttitle {
-        margin-left: 50%;
+        margin-left: 30%;
         font-size: 30px;
     }
 }
@@ -33,7 +34,7 @@
 
 @media (Max-width:800px) {
     .contacttext {
-        margin-left: 50%;
+        margin-left: 30%;
         font-size: 8px;
         margin-bottom: 5%;
     }
@@ -69,7 +70,7 @@ form {
 .form-item {
     padding: 20px;
     background-color: #1d1d20;
-    border: 3px solid rgba(0, 255, 255, 0.5);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 25px;
     color: #fff;
     font-weight: bold;
@@ -81,18 +82,18 @@ textarea {
 }
 
 .button {
-    background-color: rgba(0, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255);
     border-radius: 25px;
     font-weight: bold;
     border:0;
     cursor:pointer;
-    color:white;
+    color: black;
     font-size: 23px;
     padding: 10px 0px;
 }
 
 .button:hover {
-    background-color: rgba(0, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.475);
 }
 
 
